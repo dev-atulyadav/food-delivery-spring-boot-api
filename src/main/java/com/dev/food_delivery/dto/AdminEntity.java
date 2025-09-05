@@ -5,7 +5,9 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
-
+/**
+ * @author Atul
+ */
 @Entity
 @Data
 public class AdminEntity {

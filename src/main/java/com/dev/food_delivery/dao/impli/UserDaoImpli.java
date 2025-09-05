@@ -8,7 +8,9 @@ import org.springframework.stereotype.Repository;
 import com.dev.food_delivery.dao.UserDao;
 import com.dev.food_delivery.dto.UserEntity;
 import com.dev.food_delivery.repository.UserRepository;
-
+/**
+ * @author Atul
+ */
 @Repository
 class UserDaoImpl implements UserDao {
 

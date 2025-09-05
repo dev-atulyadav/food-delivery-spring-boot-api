@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.dev.food_delivery.dto.UserEntity;
 import com.dev.food_delivery.response.ResponseStruture;
 import com.dev.food_delivery.service.UserService;
-
+/**
+ * @author Atul
+ */
 @RestController
 @RequestMapping("api/v1/user")
 public class UserController {

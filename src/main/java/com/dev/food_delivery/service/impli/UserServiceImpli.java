@@ -10,7 +10,9 @@ import com.dev.food_delivery.dao.UserDao;
 import com.dev.food_delivery.dto.UserEntity;
 import com.dev.food_delivery.response.ResponseStruture;
 import com.dev.food_delivery.service.UserService;
-
+/**
+ * @author Atul
+ */
 @Service
 public class UserServiceImpli implements UserService {
 
