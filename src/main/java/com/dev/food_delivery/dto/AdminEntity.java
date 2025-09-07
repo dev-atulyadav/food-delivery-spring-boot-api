@@ -5,6 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
+
 /**
  * @author Atul
  */
@@ -12,10 +13,13 @@ import lombok.Data;
 @Data
 public class AdminEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String name;
-    private String email;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private String name;
+	private String email;
+	private String password;
+	private String accessToken;
+	private String refreshToken;
 
 }
